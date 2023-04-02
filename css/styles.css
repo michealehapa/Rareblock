@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar section */
+
+ 
+.navbar {
+    width: 100%;
+    margin-bottom: 20px;
+    max-height: 100vh;
+}
+
+.container-fluid {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loog {
+    padding-left: 30px;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.navbar-toggler:hover {
+    color: #182568;
+}
+
+.logo {
+    padding-left: 20px;
+}
+
+.navbar-nav {
+    text-decoration: none;
+    padding-left: 25px;
+    justify-content: space-between;
+}
+
+.nav-item {
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+    font-size: 18px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400px;
+    font-style: normal;
+    padding-left: 20px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.fine {
+    display: none;
+}
+
+ 
+.tex {
+    justify-content: center;
+    height: 40px;
+    padding: 5px;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #182568;
+    border-radius: 3px;
+    font-family: "Plus Jakarta Sans";
+}
+
+.for {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: "Plus Jakarta Sans";
+    margin-right: 35px;
+    display: block;
+    font-size: 18px;
+}
+
+.fi {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: "Plus Jakarta Sans";
+    display: block;
+    font-size: 18px;
+}
+
+.fi:hover {
+    color: #dc3442;
+}
+
+
+
+.log {
+    margin-right: 30px;
+}
+
+.sub {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    text-align: center; 
+    padding: 10px 10px;
+    line-height: 24px;
+}
+
+.sub:hover {
+    color: #dc3442;
+}
+
+
+
+
+
+/* hero container */
+ 
+#tai a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.picture {
+    width: 80%;
+    height: 80vh;
+    margin-left: 35px;
+}
+
+.hero {
+    gap: 3rem;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+.hero>* {
+    flex: 1 1 25em;
+} 
+
+.text {
+    padding-left: 100px;
+}
+
+h1 {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #18181B;
+}
+
+.lorem {
+    font-family: "Inter";
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: #52525B;
+    margin: 20px 0;
+}
+
+.news {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+
+.ent {
+    font-family: "Plus Jakarta Sans";
+    font-size: 0.9rem;
+    border: none;
+    width: 58%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.hero-btn {
+    /* width: 40%; */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 400px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-style: normal;
+    background-color: #18181B;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-btn:hover {
+    color: #dc3442;
+} 
+
+.heading {
+    display: flex;
+    margin: 30px 0;
+}
+
+h1 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 2.2rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.deli {
+    font-family: "Plus Jakarta Sans";
+    font-size: 0.7rem;
+    padding-left: 10px;
+    color: #18181B;
+    margin-top: 4px;
+}
+
+h2 {
+    margin-left: 60px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 2.2rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+@media (max-width: 425px){
+      
+    /* navbar section */
+
+   .navbar-toggler {
+    float: right;
+   }
+
+
+   /* title section */
+   
+   .hero-btn {
+    font-size: 0.7em;
+    padding: 10px 10px;
+   }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    /* navbar section */
+
+    .navbar-nav {
+        padding-left:  0;
+    }
+
+
+    .loog {
+        margin-right: 5px;
+    }
+
+    .for {
+        padding-left: 20px;
+    }
+
+    .log {
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+
+   /* title section */
+
+   
+   .text {
+    width: 100%;
+   }
+
+  
+
+}
+
+@media (min-width: 1024px) {
+
+    /* title section */
+    
+}
